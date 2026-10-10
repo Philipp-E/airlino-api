@@ -4,11 +4,15 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "airlino-api"
-version = "1.0.0"
+version = "1.0.1"
 description = "Async HTTP API client for AirLino media players"
 requires-python = ">=3.11"
 dependencies = ["aiohttp>=3.9"]
 license = "MIT"
+
+[project.urls]
+Repository = "https://github.com/Philipp-E/airlino-api"
+Issues = "https://github.com/Philipp-E/airlino-api/issues"
 
 [tool.setuptools.packages.find]
 where = ["src"]
